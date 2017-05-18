@@ -1,0 +1,927 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>:: Rental Property ROI Calc ::</title>
+	
+    <link href="css/sky-forms.css" rel="stylesheet">
+    <link href="css/sky-forms-color.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+<script src="js/jquery.1.11.1.js"></script>
+
+
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+    
+   
+    
+    
+    
+</head>
+
+<body>
+
+
+<div class="wrapper">
+
+
+<!--start headaer section -->
+
+<header>
+<div class="headerTop">
+	<div class="container">
+    
+    <div class="row">
+    <div class="col-rr-12 col-xs-5 col-sm-4 col-md-3 logoCusrr"><a href="javascript:;"><img src="images/logo.png" alt="" class="img-responsive center-blockrr"></a></div>
+    
+    <div class="col-rr-12 col-xs-7 col-sm-8 col-md-9">
+    	<div class="headaerwelcom">
+        	<span>Welcome Bidlion</span>  <a href="javascript:;">Register</a>  |  <a href="javascript:;">Login</a>       
+        </div>
+        
+        <div class="needhelp">Need Help? Call: <span>855.936.5466</span></div>
+        
+        <div class="navbarCus">
+           <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+            
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="javascript:;">Home</a></li>
+                    <li><a href="javascript:;">Agents</a></li>
+                    <li><a href="javascript:;">Buyers</a></li>
+                    <li><a href="javascript:;">Sellers</a></li>
+                    <li><a href="javascript:;">Asset Managers</a></li>
+                    <li><a href="javascript:;">About</a></li>
+                    <li><a href="javascript:;">FAQ's</a></li>
+                    <li><a href="javascript:;">Docs</a></li>
+                    <li><a href="javascript:;">Contact</a></li>
+                  </ul>
+                </div>
+            </nav>
+        <div class="clr"></div>
+        </div>
+    </div>
+    
+    <div class="clr"></div>
+    </div>
+    </div>
+</div>
+
+<div class="headerSearch">
+	<div class="container">
+    
+    <div class="row">
+    <div class="col-sm-8 col-md-6">
+    	<div class="input-group sky-form">
+      	<label class="select">
+								<select>
+									<option value="0">Homes for Sale</option>
+									<option value="1">Rental Properties</option>
+									<option value="2">Vacation Rentals</option>
+									<option value="3">Commercial Properties</option>
+								</select>
+								<i></i>
+							</label>
+      <span class="input-group-btn">
+        <button class="btn btn-default searchCusButton" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </span>
+    </div>
+    
+    <div class="clr"></div>
+    </div>
+    
+    <div class="col-sm-4 col-md-2 col-md-offset-4"><button class="btn btn-default register" type="submit">REGISTER</button></div>
+    
+    <div class="clr"></div>
+    </div>
+    </div>
+</div>
+
+</header>
+
+<!--end headaer section -->
+
+
+
+<!--start bodysection -->
+
+<div class="bodyCon">
+	<div class="container">
+      <div class="row">
+        <div class="col-md-12">
+   	  	<h1>Rental Property ROI <span>Calculator</span> </h1>
+        </div>
+        <div class="clr"></div>
+      </div>
+      
+      	<h5>Directions: Fill In highlighted blanks. Adjust offer price to your desired profit.  Be sure to try to get the renovations close for an accurate projection. Some of the highlighted cost  figures have been provided but can be adjusted for your property and market .</h5>
+      <p class="flipbold">Get the full Excel customizable spreadsheet emailed to you for $60.00 . It includes  a renovation worksheet, multiple property entries and more. Best of all you can save copies and send to lenders, partners etc. The full Spreadsheet also includes a must have 5years and ROI after refinancing projection.<br><span class="buttncc">SEE SAMPLE SPREADSHEET</span> </p>
+        
+        <div class="table-responsive tableSec">
+        	
+            <table class="table table-bordered trm">
+            <thead>
+            <tr class="applicationFeetc">
+            <th width="35%">Subject Property Address: </th>
+            <th width="9%">&nbsp;</th>
+            <th width="8%">Input $ or %</th>
+            <th width="8%">&nbsp;</th>
+            
+            </tr>
+            </thead>
+            <tbody class="applicationFeetc">
+            
+           		 <tr>
+                    <td><strong> County Tax Assessed Value </strong> <span class="street">(If unsure: use your best estimate or offer price to get approx. taxes) </span></td>
+                    <td>&nbsp;</td>
+                    <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 107px;
+    padding-left: 20px;
+    padding-right: 20px;
+">$<input class="formtextboxTwo" type="text" name="c6" id="c6" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d6">0</span><input type="hidden" name="d6" id="d6" value="0"></td>
+                    
+                 </tr>
+                 
+                 <tr>
+                    <td><strong>Offer (Purchase Price ;</strong>
+<span class="street">Insert best estimate of OFFER price and adjust after reviewing profit at the  bottom)</span> </td>
+                    <td>&nbsp;</td>
+                    <td style="
+    padding-left: 20px;
+    padding-right: 20px;
+">$<input class="formtextboxTwo" type="text" name="c7" id="c7" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d7">0</span><input type="hidden" name="d7" id="d7" value="0"></td>
+                   
+                 </tr>
+                 
+                 <tr>
+                    <td>Projected 1st Mortgage Amount <span class="street">( Enter loan to value %)</span></td>
+                    <td>&nbsp;</td>
+                    <td style="
+    padding-right: 1px;
+    height: 42px;
+    width: 124px;
+    padding-left: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c8" id="c8" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="75" style="
+    margin-right: 4px;
+    margin-left: 1px;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d8">0</span><input type="hidden" name="d8" id="d8" value="0"></td>
+                   
+                 </tr>
+                 
+                 
+                 
+              
+                 
+                 
+                 
+                 
+                 
+                 
+                 <tr>
+                    <td>Cash Down on Purchase</td>
+                    <td>&nbsp;</td>
+                     <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+">&nbsp;</td>
+                    <td>$<span id="tt_d9">0</span><input type="hidden" name="d9" id="d9" value="0"></td>
+                   
+                 </tr>
+                 
+                 
+                 <tr>
+                    <td><b>ARV </b><span class="street">(After Renovation Value) (Enter dollar amount)</span></td>
+                    <td>&nbsp;</td>
+                      <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c10" id="c10" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d10">0</span><input type="hidden" name="d10" id="d10" value="0"></td>
+                   
+                 </tr>
+                 
+                 
+                 
+                 
+                 <tr>
+                    <td>&nbsp;</td>
+                   <td>Carry Months</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+">% or $</td>
+                    <td>&nbsp;</td>
+                  
+                 </tr>
+                 
+                 <tr>
+                    <td colspan="7" style="text-align:center;padding-top: 12px;padding-bottom: 12px;"><strong>Expenses (All costs to renovate and get home ready for rent) (Adjust values provided)</strong></td>
+                 </tr>
+
+                 
+               
+                 
+                 <tr>
+                   <td>Initial Buying Closing Costs <span class="street">(Title insurance, fees, taxes, misc. closing costs )( National average approx. 2%)(Enter %)
+</span></td>
+                   <td>&nbsp;</td>
+                    <td style="
+    padding-right: 0px;
+    padding-left: 19px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c13" id="c13" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="2" style="
+    margin-left: 1px;
+    margin-right: 4px;
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d13">0</span><input type="hidden" name="d13" id="d13" value="0"></td>
+                    
+                 </tr>
+                 <tr>
+                   <td>Bank Points  <span class="street">(Percentage of purchase price) (Enter number of bank points)</span></td>
+                   <td>&nbsp;</td>
+                    <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c14" id="c14" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="1" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d14">0</span><input type="hidden" name="d14" id="d14" value="0"></td>
+                    
+                 </tr>
+                 <tr>
+                   <td>Total Cost of Renovations &amp; Repairs (Very Important) 
+ <span class="street">(Enter your estimate of total renovations and repairs)</span></td>
+                  <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c15" id="c15" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d15">0</span><input type="hidden" name="d15" id="d15" value="0"></td>
+                   
+                 </tr>
+                 <tr>
+                   <td>Carry Cost <span class="street">(Mortgage Interest until rented) (Enter Months of carry and interest rate on loan)</span></td>
+                   <td><input class="formtextboxTwo" type="text" name="b16" id="b16" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="6" style="
+    width: 66px;
+"></td>
+                   <td style="
+    padding-left: 30px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+"><input class="formtextboxTwo" type="text" name="c16" id="c16" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="8" style="
+    width: 66px;
+">%</td>
+                   <td>$<span id="tt_d16">0</span><input type="hidden" name="d16" id="d16" value="0"></td>
+                   
+                 </tr>
+                 <tr>
+                   <td>Property Taxes  <span class="street">(Enter Tax Rate)(1.28% is National Average) (Find your county's tax rate at: http://money.cnn.com/interactive/real-estate/property-tax/)</span></td>
+                   <td><span id="tt_b17">6</span><input type="hidden" name="b17" id="b17" value="6"></td>
+                    <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c17" id="c17" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="1.28" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d17">0</span><input type="hidden" name="d17" id="d17" value="0"></td>
+                    
+                 </tr>
+                 <tr>
+                   <td>Liability Insurance 
+ <span>(Average  nationwide .8% of purchase price) (Enter approx. Insurance Rate)</span></td>
+                    <td><span id="tt_b18">6</span><input type="hidden" name="b18" id="b18" value="6"></td>
+                   <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c18" id="c18" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.8" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d18">0</span><input type="hidden" name="d18" id="d18" value="0"></td>
+                    
+                 </tr>
+                 <tr>
+                   <td>Overhead (Utilities, Maintenance, lawn care, etc.) 
+ <span class="street">(Enter  dollar amount)</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 9px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c19" id="c19" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d19">0</span><input type="hidden" name="d19" id="d19" value="0"></td>
+                    
+                 </tr>
+                 <tr>
+                   <td> HOA/Condo  FEES etc. <span class="street">(Enter  Mo. HOA  fee dollar amount)</span></td>
+                  <td><span id="tt_b20">6</span><input type="hidden" name="b20" id="b20" value="6"></td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c20" id="c20" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                   <td>$<span id="tt_d20">0</span><input type="hidden" name="d20" id="d20" value="0"></td>
+                   
+                 </tr>
+                 <tr>
+                   <td>Other Expense: 
+ <span class="street">(Enter Dollar Amount)</span></td>
+                  <td>&nbsp;</td>
+                    <td style="
+    padding-bottom: 12px;
+    padding-top: 12px;
+">$<input class="formtextboxTwo" type="text" name="c21" id="c21" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d21">0</span><input type="hidden" name="d21" id="d21" value="0"></td>
+                    
+                 </tr>
+                 <tr>
+                   <td> Credits: Seller Subsidy Received When Purchasing, Commissions etc.  
+    <span class="street">(Enter a negative number)</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+">-$<input class="formtextboxTwo" style="text-align:center;width: 66px;padding-right: 12px;" type="text" name="c22" id="c22" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0"></td>
+                   <td>-$<span id="tt_d22">0</span><input type="hidden" name="d22" id="d22" value="0"></td>
+                   
+                 </tr>
+                 <tr>
+                   <td><strong>Total Costs to Buy and Get Ready for Rent</strong>
+</td>
+                   <td>&nbsp;</td>
+                  <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+">&nbsp;</td>
+                    <td>$<span id="tt_d23">0</span><input type="hidden" name="d23" id="d23" value="0"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                 
+               
+                 <tr>
+                   <td><strong>Total Cash Needed </strong> (Total Expenses Plus Cash Down Paid at Purchase)</td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+">&nbsp;</td>
+                   <td>$<span id="tt_d24">0</span><input type="hidden" name="d24" id="d24" value="0"></td>
+                  
+                 </tr>
+                 
+                <tr>
+                   <td height="10" colspan="10" style="text-align:center;padding-top: 12px;padding-bottom: 12px;"><strong>RENTAL PROPERTY CASH FLOW</strong>		
+</td>
+                 </tr> 
+                 
+                 
+                 
+                 <tr>
+                   <td><strong> Annual Expenses </strong>		
+ <span class="street">( Adjust values provided )</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+">&nbsp;</td>
+                     <td>&nbsp;</td>
+                   
+                 </tr>
+                
+                
+                 <tr>
+                   <td>Annual Mortgage <span class="street">( Only interest expense  )  (Enter interest rate on loan )</span></td>
+                   <td>&nbsp;</td>
+                  <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c29" id="c29" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="5" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d29">0</span><input type="hidden" name="d29" id="d29" value="0"></td>
+                   
+                 </tr>
+                 
+                 
+                 
+                  <tr>
+                   <td>Property Taxes  
+ <span class="street">(Enter tax rate)(1.28% is national average) (Find your county's tax rate at: http://money.cnn.com/interactive/real-estate/property-tax/)</span></td>
+                   <td>&nbsp;</td>
+                  <td style="
+    width: 142px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c30" id="c30" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="1.28" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d30">0</span><input type="hidden" name="d30" id="d30" value="0"></td>
+                   
+                 </tr>
+                 
+                 
+                 
+                 
+                   <tr>
+                   <td>Liability Insurance 
+ <span class="street">(Average  nationwide .8% of purchase price)  ( Enter approx. Insurance Rate )</span></td>
+                   <td>&nbsp;</td>
+                  <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c31" id="c31" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.8" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d31">0</span><input type="hidden" name="d31" id="d31" value="0"></td>
+                   
+                 </tr>
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 <tr>
+                   <td>Extra Insurance <span class="street">(flood, hurricane, etc.) (Enter annual $ amount)</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c32" id="c32" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d32">0</span><input type="hidden" name="d32" id="d32" value="0"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                <tr>
+                   <td>Management  <span class="street"> (Enter % of annual rent)</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c33" id="c33" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="10.00" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d33">2,400</span><input type="hidden" name="d33" id="d33" value="2400"></td>
+                    
+                 </tr>
+                 
+                 
+                 <tr>
+                   <td>Overhead  Office Etc.  <span class="street"> (Enter % of annual rent)</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c34" id="c34" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="1.00" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d34">240</span><input type="hidden" name="d34" id="d34" value="240"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                   <tr>
+                   <td>Repairs and Maintenance  <span class="street"> (Enter % of annual rent)  </span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c35" id="c35" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="7.00" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d35">1,680</span><input type="hidden" name="d35" id="d35" value="1680"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                 <tr>
+                   <td>Repairs <span class="street">  (Additional cost of repairs in between renters, repaint, carpet,  etc.)  (Enter % of annual rent) </span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c36" id="c36" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="6.00" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d36">1,440</span><input type="hidden" name="d36" id="d36" value="1440"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                 <tr>
+                   <td>Commissions Paid In House or To Rental Agents <span class="street">  (Enter annual dollar amount ) </span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c37" id="c37" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d37">0</span><input type="hidden" name="d37" id="d37" value="0"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                 <tr>
+                   <td>Legal and Court Costs <span class="street">  (Enter % of annual rent) </span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 30px;
+"><input class="formtextboxTwo" type="text" name="c38" id="c38" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="1.00" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d38">240</span><input type="hidden" name="d38" id="d38" value="240"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                  <tr>
+                   <td>HOA/Condo Fees  <span class="street">  ( Enter monthly HOA/condo fees )</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c39" id="c39" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d39">0</span><input type="hidden" name="d39" id="d39" value="0"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                 
+                  <tr>
+                   <td>Estimated Utilities  <span class="street">  (Only if Owner Pays) ( Enter annual dollar amount )</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c40" id="c40" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d40">0</span><input type="hidden" name="d40" id="d40" value="0"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                <tr>
+                   <td>Lawn and Landscape Care   <span class="street"> (Only if owner pays) ( Enter annual dollar amount )</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c41" id="c41" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d41">0</span><input type="hidden" name="d41" id="d41" value="0"></td>
+                    
+                 </tr>   
+                 
+                 
+                 
+                   <tr>
+                   <td>Vacancy  <span class="street"> (8% is One Month) ( Enter % vacancy or average unrented time per year )  </span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c42" id="c42" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="5.00" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d42">1,200</span><input type="hidden" name="d42" id="d42" value="1200"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                 
+              <tr>
+                   <td>Uncollectable Rent   <span class="street">   (Enter % of annual rent)</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c43" id="c43" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="2.00" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d43">480</span><input type="hidden" name="d43" id="d43" value="480"></td>
+                    
+                 </tr>   
+                 
+                 
+                 
+                 <tr>
+                   <td>Other  <span class="street"> ( Enter annual $ amount )</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c44" id="c44" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>$<span id="tt_d44">0</span><input type="hidden" name="d44" id="d44" value="0"></td>
+                    
+                 </tr>   
+                 
+                 
+                 
+                 <tr>
+                   <td><strong>Total Annual Expenses</strong></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+">&nbsp;</td>
+                    <td>$<span id="tt_d45">7,680</span><input type="hidden" name="d45" id="d45" value="7680"></td>
+                    
+                 </tr>   
+                 
+                 
+                 <tr>
+                   <td height="10" colspan="10" style="text-align:center;padding-left: 200px;padding-top: 12px;padding-bottom: 12px;"><strong> Income</strong>		
+</td>
+                 </tr>
+   
+                 
+                  <tr>
+                   <td>Estimated Monthly Rent
+   <span class="street">  ( Include pet fees etc.)</span></td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c48" id="c48" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>&nbsp;</td>
+                 </tr>  
+                 
+                 
+                  <tr>
+                   <td>Total Annual Rent</td>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>$<span id="tt_d49">24,000</span><input type="hidden" name="d49" id="d49" value="24000"></td>
+                 </tr>  
+                 
+            <tr>
+                   <td>Annual Positive/Negative Cash Flow</td>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>$<span id="tt_d50">16,320</span><input type="hidden" name="d50" id="d50" value="16320"></td>
+                 </tr> 
+                 
+                 
+                 
+                  <tr>
+                   <td>Total Cash Needed (Total Expenses Plus Cash Down Paid at Purchase)</td>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>$<span id="tt_d51">0</span><input type="hidden" name="d51" id="d51" value="0"></td>
+                 </tr> 
+                 
+                 
+                 
+                 
+                  <tr>
+                   <td><strong>ROC : Return on Cash Before Appreciation and Depreciation</strong> <span class="street"> ( Cash Flow / Total Cash Investment)</span> 
+</td>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td><span id="tt_d52">NaN</span>%<input type="hidden" name="d52" id="d52" value="NaN"></td>
+                 </tr> 
+                 
+                 <tr>
+                   <td height="10" colspan="10" style="text-align:center;padding-top: 12px;padding-bottom: 12px;padding-left: 20px;padding-right: 20px;"><strong>Depreciation Tax Write Off and Appreciation</strong>		
+</td>
+                 </tr>  
+                 
+                 
+                 <tr>
+                   <td>Appreciation (Enter your prediction of the annual property appreciation)</td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+"><input class="formtextboxTwo" type="text" name="c55" id="c55" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="2.00" style="
+    width: 66px;
+">%</td>
+                    <td>$<span id="tt_d55">0</span><input type="hidden" name="d55" id="d55" value="0"></td>
+                    
+                 </tr>
+                 
+                 
+                 
+                 
+                  <tr>
+                   <td>Depreciation Tax Write Off ( Enter tax accessed value of structures only )</td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+">$<input class="formtextboxTwo" type="text" name="c56" id="c56" kl_virtual_keyboard_secure_input="on" onblur="calcutation()" onkeypress="return isNumber(event, this)" value="0.00" style="
+    width: 66px;
+"></td>
+                    <td>&nbsp;</td>
+                    
+                 </tr>
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                  <tr>
+                   <td>Annual Depreciation Cash Tax Write Off  <span class="street">( Based on 30% tax bracket and 26 year depreciation )</span>
+</td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+">&nbsp;</td>
+                   <td>$<span id="tt_d57">0</span><input type="hidden" name="d57" id="d57" value="0"></td>
+                 </tr>  
+                 
+                 
+                 
+                  <tr>
+                   <td>Total Value of  Cash Flow, Appreciation and Depreciation Tax Write Off
+
+</td>
+                   <td>&nbsp;</td>
+                   <td style="
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+">&nbsp;</td>
+                   <td>$<span id="tt_d58">16,320</span><input type="hidden" name="d58" id="d58" value="16320"></td>
+                 </tr>  
+                 
+                 
+                 
+                   <tr>
+                   <td><strong>Total Return On Capital </strong> <span class="street">(Based on 1st years projected cash flow, appreciation and depreciation tax write off)</span>
+</td>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td><span id="tt_d59">NaN</span><input type="hidden" name="d59" id="d59" value="NaN">%</td>
+                 </tr>  
+                  
+                 
+                  
+            </tbody>
+            </table>
+
+        </div>
+        
+    </div>
+</div>
+
+<!--end bodysection -->
+
+
+
+
+<!--start footer section -->
+
+<footer class="footerSection">
+<div class="container">
+	<img src="images/footerLion.png" alt="" class="footerLion">
+    <img src="images/footerHelp.png" alt="" class="footerHelp">
+    
+    <div class="footerCon">
+    <div class="social">
+      <a href="javascript:;"><img src="images/faceBook.png" alt=""></a>
+      <a href="javascript:;"><img src="images/googlePlus.png" alt=""></a>
+      <a href="javascript:;"><img src="images/linkedIn.png" alt=""></a>
+    </div>
+    
+    <div class="footerAddress">10307 Piper Lane, Manassas, VA 20110    <i class="fa fa-circle" aria-hidden="true"></i>   855.936.5466 </div>
+    
+    <div class="footerMenu">
+        <ul>
+        	<li><a href="javascript:;">Home</a></li>
+            <li>|</li>
+            <li><a href="javascript:;">About Us</a></li>
+            <li>|</li>
+            <li><a href="javascript:;">Contact Us</a></li>
+            <li>|</li>
+            <li><a href="javascript:;">Terms &amp; Conditions</a></li>
+            <li>|</li>
+            <li><a href="javascript:;">Docs</a></li>
+        </ul>
+     <div class="clr"></div>
+    </div>
+    
+    <div class="copyright">
+    © 2016 BidLion, LLC. All rights reserved.
+    </div>
+    </div>
+    
+</div>
+</footer>
+
+<!--end footer section -->
+
+
+</div>
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+
+
+
+
+</body></html>

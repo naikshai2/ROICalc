@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and  (max-width:1199px) {
+	
+	
+	.nav > li > a {
+    color: rgb(46, 46, 46);
+    display: block;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    margin-right: 1px;
+    padding: 5px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+.footerLion { position:absolute; bottom:0; right:5px;}
+.footerHelp { position:absolute; bottom:10px; left:5px;}
+
+
+.tab_table1 table thead tr th{font: 400 13px/30px "seguisb";}
+.tab_team_item ul li{width: 16.5%; margin: 0; padding: 5px;}
+.team_img{height: 95px;}
+
+
+.homeBodytop h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.homeBodytop h4 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.goodnews { margin-bottom:30px;}
+
+.rentalsboxThree {
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 13px;
+    line-height: 13px;
+    margin: 11px 0 0;
+    width: 52%;
+}
+
+
+}
+
+
+@media screen and  (max-width:991px) {
+
+
+
+.navbar-header { float: none;}
+    .navbar-toggle {
+        display: block;}
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+		padding-left:0;
+		padding-right:0;}
+    .navbar-collapse.collapse {
+        display: none!important;}
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px 0 10px 0;}
+    .navbar-nav>li {
+        float: none;}
+    .navbar-nav>li>a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+		margin-bottom:1px;
+		}
+   .navbar-collapse.collapse.in { 
+        display: block!important; }
+	.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{padding-bottom:10px;}
+
+
+
+.headaerwelcom {
+    font-size: 18px;
+    text-align: right;
+}
+
+.needhelp {
+    color: rgb(12, 109, 212);
+    font-size: 23px;
+    line-height: 23px;
+    text-align: right;
+}
+
+
+
+.navbar-collapse {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+	margin-top:10px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgb(255, 255, 255);
+}
+
+
+.nav > li > a {
+    background-color: rgb(57, 18, 22);
+    color: rgb(46, 46, 46);
+    display: block;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    margin-right: 1px;
+    padding: 5px 10px;
+    position: relative;
+    text-transform: uppercase;
+	color:#fff !important;
+}
+
+
+.listingAgent { margin-top:30px;}
+
+.searchPic {
+    display: inline-block;
+    vertical-align: top;
+	float:left;
+	margin-bottom:20px;
+	padding-left: 0px;
+	position:absolute; 
+	top:0;
+}
+
+.searchPicbox { position:relative; margin-bottom:20px;}
+.tar {text-align: left; padding-bottom:5px; display:inline-block !important; padding-left:130px;}
+
+.tar p {display:inline-block !important; }
+
+.stateMap { margin-top:30px;}
+.clickmap { width:100%; max-width:300px; background-color:#f0c02d; border-radius:3px; padding:12px 0px; text-align:center;}
+
+.downarrow {
+    bottom: -41px;
+    position: absolute;
+    right: 0px;
+}
+
+
+.listingHeader { margin-top:30px;}
+.homelistingAgent { padding-top:30px;}
+
+
+.homeBodymiddlePic {
+  position:relative;
+  text-align: center;
+  max-width: 800px;  
+  max-height:inherit;
+}
+
+.rentalsboxThree {  width: 34%;}
+
+.rentalsboxThree {
+    width: 38%;
+}
+
+
+}
+
+
+
+@media screen and  (max-width:767px) {
+
+.register { background-color:#f0c02d; font-size:20px;  color:#000; font-family: 'Segoe UI'; font-weight:bold; padding:5px 30px; width:inherit; border: solid 1px #f0c02d; margin-top:5px;}
+
+.listingHeader { margin-top:20px;}
+
+.listPrice { padding-top:20px;}
+
+.lincon { padding:10px 0px 0px 40px;}
+
+.addbut {text-align: left; padding-top:8px;}
+
+.uploadRight {text-align: left; padding:10px 15px 0px 10px;}
+.selectbox  select {border:none !important; font-size:14px !important; color:#1479e3 !important; height:30px !important; text-align:left !important;}
+.selectbox { width:auto; display:inline-block !important; height:30px !important;  padding: 2px 20px 2px 0px;  }
+
+
+
+.team_img {height: 100px;}
+.team_img img{height: auto;max-height: 100%;}
+.team_txt h3{font: 400 13px/20px "Segoe UI";}
+
+
+
+.homeBodytop h2 {
+    font-size: 25px;
+	line-height:22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.homeBodytop h4 {
+    font-size: 18px;
+    line-height: 20px;
+}
+.downarrow {
+    bottom: -10px;
+    position: absolute;
+    right: 0px;
+}
+
+
+
+.price h2 { padding-bottom:20px;}
+
+.rentals { margin:0px 0px 0px 20px;} 
+
+.management { width:97%; max-width:inherit; margin:0px 0px 0px 3% ;}
+
+
+
+}
+
+
+@media screen and  (max-width:680px) {
+
+
+
+.navbar-collapse {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    padding-left: 0;
+    padding-right: 0;
+    position: inherit;
+    width: 100%;
+    z-index: 9999;
+	margin-top:10px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgb(46, 46, 46;)
+}
+
+
+.nav > li > a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 46, 46);
+    display: block;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    margin-right: 1px;
+    padding: 5px 10px;
+    position: relative;
+    text-transform: uppercase;
+	color:#2e2e2e !important;
+}
+
+
+
+
+
+
+
+.logoCusrr {}
+.logoCusrr img { width:30%;}
+
+.footerLion { position:absolute; bottom:0; right:1%; display:none;}
+.footerHelp { position:absolute; bottom:10px; left:1%; display:none;}
+
+
+.col-rr-12 { width:100%;}
+
+.headaerwelcom {
+    font-size: 16px;
+    padding: 0 0 5px;
+    text-align: center;
+}
+
+.needhelp {
+    color: rgb(12, 109, 212);
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.center-blockrr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mediaDirectory { width:100%; display:block; padding-top:10px;}
+
+
+
+}
+
+@media screen and  (max-width:599px) 
+{
+    
+.home_img{display: inline;}
+.tab_team_item ul li{width: 25%;}
+.team_img{height: 115px;}
+.team_img img{height: auto;max-height: 100%;}
+
+
+.rentalsbox { height:auto; background-color:#0c6dd4; margin:10px 0px; position:relative; background-image:none; 
+-webkit-box-shadow:none;
+-moz-box-shadow: none;
+box-shadow: none;
+position:relative;
+padding:20px;
+text-align:center;
+}
+
+.rentalsboxOne {width: 100%; height: auto; left: 0px; position: inherit;  top: 02px; float:inherit; text-align:center;  }
+.rentalsboxTwo {width: 100%;  margin:11px 5px 0px 0px;  float:inherit;}
+.rentalsboxThree {width: 100%;   margin:11px 0px 0px 0px;  float:inherit; color:#fff; font-size:13px; line-height:13px;}
+.rentalsboxFour { width: 100%; margin:10px 20px 0px 0px;  float:inherit;}
+.rentalsboxFive {width: 100%;   margin:15px 0px 0px 0px;  float:inherit; color:#fff; font-size:13px; line-height:13px;}
+
+
+
+}
+
+@media screen and  (max-width:480px) {
+
+
+.logoCusrr img { width:40%;}
+
+
+
+.headaerwelcom {
+    font-size: 14px;
+    padding: 0 0 5px;
+    text-align: center;
+}
+
+.needhelp {
+    color: rgb(12, 109, 212);
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.clickmap p { font-size:14px; color:#000;}
+.clickmap h3 { font-size:16px; color:#000; font-family: 'Segoe UI'; font-weight: 600; font-style: normal;}
+
+
+.tab_team_item ul li{width: 33%;}
+.team_img{height: 80px;}
+.team_img img{height: auto;max-height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
